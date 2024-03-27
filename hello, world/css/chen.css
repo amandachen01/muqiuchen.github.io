@@ -1,19 +1,31 @@
+body {
+    background-color: black; 
+    color: white; 
+}
 
 
 h1 {
-    color: brown;
+    color: #37e137; 
 }
 
-p#welcome::first-letter{
-font-size: larger;
-color: rgb(127, 255, 187);
+p#welcome::first-letter {
+    font-size: larger;
+    color: rgb(127, 255, 187); 
+}
+
+#second {
+    color: rgb(45, 176, 121); 
+}
+
+.second {
+    color: aquamarine; 
 }
 
 
-#second{
-    color: rgb(176, 45, 176);
-}
+h3, p, charm { 
+    color: #58db58; 
 
-.second{
-    color: aquamarine;
+charm { 
+    display: block;
+    color: #53f753; 
 }
